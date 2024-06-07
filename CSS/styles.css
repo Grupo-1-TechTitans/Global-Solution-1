@@ -260,31 +260,19 @@
   
 }
 
-.lista_eco {
-  width: 800px;
-}
+
 
 .lista_leis {
   color: rgb(116, 24, 24);
   font-weight: bold;
 }
 
-.sessao {
-  background-color: white;
-}
-
 @media (max-width: 1000px){
-  .lista_eco {
-    width: auto;
-  }
-  .lista_eco img {
-    width: 100px;
+  .lista_eco img, .main_ecoturismo img {
+    width: 300px;
   }
   .img_policao {
     flex-direction: column;
-  }
-  .main_ecoturismo img {
-    width: 200px;
   }
 
 }
